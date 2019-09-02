@@ -8,14 +8,14 @@ $ npm install --global open-google-cli
 
 ## Usage
 ```
-$ open-google-cli --help
+$ open-google --help
 
         Usage
           $ open-google <search query>
         Examples
-          $ free-space Kirkhorn
-          $ free-space "Knut Kirkhorn"
-          $ free-space "example search"
+          $ open-google Kirkhorn
+          $ open-google "Knut Kirkhorn"
+          $ open-google "example search"
 ```
 
 ## Related
