@@ -14,8 +14,8 @@
     "node": ">=8"
   },
   "files": [
-		"cli.js"
-	],
+    "cli.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Knutakir/open-google-cli.git"
@@ -35,7 +35,7 @@
   "homepage": "https://github.com/Knutakir/open-google-cli#readme",
   "dependencies": {
     "meow": "^5.0.0",
-    "open-google": "^1.1.0"
+    "open-google": "^1.2.0"
   },
   "devDependencies": {
     "ava": "^2.3.0",
