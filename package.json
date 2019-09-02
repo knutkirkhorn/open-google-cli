@@ -6,6 +6,16 @@
   "scripts": {
     "test": "ava"
   },
+  "bin": {
+    "open-google": "cli.js",
+    "open-google-cli": "cli.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+		"cli.js"
+	],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Knutakir/open-google-cli.git"
