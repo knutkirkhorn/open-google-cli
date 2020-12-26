@@ -34,11 +34,11 @@
   },
   "homepage": "https://github.com/Knutakir/open-google-cli#readme",
   "dependencies": {
-    "meow": "^5.0.0",
+    "meow": "^8.1.0",
     "open-google": "^1.2.0"
   },
   "devDependencies": {
-    "ava": "^2.3.0",
-    "execa": "^2.0.4"
+    "ava": "^3.14.0",
+    "execa": "^5.0.0"
   }
 }
