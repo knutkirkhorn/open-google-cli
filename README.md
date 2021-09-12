@@ -1,4 +1,4 @@
-# open-google-cli [![Build Status](https://travis-ci.org/Knutakir/open-google-cli.svg?branch=main)](https://travis-ci.org/Knutakir/open-google-cli)
+# open-google-cli [![Build Status](https://travis-ci.org/knutkirkhorn/open-google-cli.svg?branch=main)](https://travis-ci.org/knutkirkhorn/open-google-cli)
 > Open a Google search from the terminal
 
 ## Installation
@@ -19,7 +19,7 @@ $ open-google --help
 ```
 
 ## Related
-- [open-google](https://github.com/Knutakir/open-google) - API for this module
+- [open-google](https://github.com/knutkirkhorn/open-google) - API for this module
 
 ## License
 MIT © [Knut Kirkhorn](LICENSE)
