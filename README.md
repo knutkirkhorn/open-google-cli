@@ -1,4 +1,4 @@
-# open-google-cli [![Build Status](https://travis-ci.org/knutkirkhorn/open-google-cli.svg?branch=main)](https://travis-ci.org/knutkirkhorn/open-google-cli)
+# open-google-cli
 > Open a Google search from the terminal
 
 ## Installation
