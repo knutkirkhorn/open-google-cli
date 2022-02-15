@@ -8,8 +8,7 @@
     "lint": "eslint ."
   },
   "bin": {
-    "open-google": "cli.js",
-    "open-google-cli": "cli.js"
+    "open-google": "cli.js"
   },
   "engines": {
     "node": ">=8"
