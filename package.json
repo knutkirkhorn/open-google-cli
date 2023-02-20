@@ -1,6 +1,6 @@
 {
 	"name": "open-google-cli",
-	"version": "1.0.3",
+	"version": "2.0.0",
 	"description": "Open a Google search from the terminal",
 	"scripts": {
 		"test": "ava",
