@@ -1,47 +1,51 @@
 {
-  "name": "open-google-cli",
-  "version": "1.0.3",
-  "description": "Open a Google search from the terminal",
-  "main": "cli.js",
-  "scripts": {
-    "test": "ava",
-    "lint": "eslint ."
-  },
-  "bin": {
-    "open-google": "cli.js"
-  },
-  "engines": {
-    "node": ">=8"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/knutkirkhorn/open-google-cli.git"
-  },
-  "keywords": [
-    "open",
-    "google",
-    "search",
-    "node",
-    "cli"
-  ],
-  "author": "Knut Kirkhorn",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/knutkirkhorn/open-google-cli/issues"
-  },
-  "homepage": "https://github.com/knutkirkhorn/open-google-cli#readme",
-  "dependencies": {
-    "meow": "^8.1.0",
-    "open-google": "^1.3.0"
-  },
-  "devDependencies": {
-    "ava": "^3.15.0",
-    "eslint": "^7.26.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "execa": "^5.0.0"
-  }
+	"name": "open-google-cli",
+	"version": "1.0.3",
+	"description": "Open a Google search from the terminal",
+	"scripts": {
+		"test": "ava",
+		"lint": "eslint ."
+	},
+	"bin": {
+		"open-google": "cli.js"
+	},
+	"files": [
+		"cli.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/knutkirkhorn/open-google-cli.git"
+	},
+	"keywords": [
+		"open",
+		"google",
+		"search",
+		"node",
+		"cli"
+	],
+	"author": "Knut Kirkhorn",
+	"type": "module",
+	"exports": "./index.js",
+	"types": "./index.d.ts",
+	"engines": {
+		"node": ">=14.16"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/knutkirkhorn/open-google-cli/issues"
+	},
+	"homepage": "https://github.com/knutkirkhorn/open-google-cli#readme",
+	"dependencies": {
+		"meow": "^11.0.0",
+		"open-google": "^2.0.0"
+	},
+	"devDependencies": {
+		"ava": "^5.2.0",
+		"eslint": "^8.34.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-ava": "^14.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-unicorn": "^45.0.2",
+		"execa": "^7.0.0"
+	}
 }

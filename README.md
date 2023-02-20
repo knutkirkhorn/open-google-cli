@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-$ npm install --global open-google-cli
+npm install --global open-google-cli
 ```
 
 ## Usage
@@ -13,12 +13,13 @@ $ npm install --global open-google-cli
 ```
 $ open-google --help
 
-        Usage
-          $ open-google <search query>
-        Examples
-          $ open-google Kirkhorn
-          $ open-google "Knut Kirkhorn"
-          $ open-google "example search"
+  Usage
+    $ open-google <search query>
+
+  Examples
+    $ free-space Kirkhorn
+    $ free-space "Knut Kirkhorn"
+    $ free-space "example search"
 ```
 
 ## Related

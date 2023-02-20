@@ -1,21 +1,20 @@
 #!/usr/bin/env node
 
-'use strict';
-
-const meow = require('meow');
-const openGoogle = require('open-google');
+import meow from 'meow';
+import openGoogle from 'open-google';
 
 const cli = meow(`
-        Usage
-          $ open-google <search query>
-        Examples
-          $ free-space Kirkhorn
-          $ free-space "Knut Kirkhorn"
-          $ free-space "example search"
-`);
+	Usage
+	  $ open-google <search query>
+
+	Examples
+	  $ free-space Kirkhorn
+	  $ free-space "Knut Kirkhorn"
+	  $ free-space "example search"
+`, {importMeta: import.meta});
 
 const searchQuery = cli.input[0];
 
 if (cli.input.length === 1) {
-    openGoogle(searchQuery);
+	openGoogle(searchQuery);
 }
