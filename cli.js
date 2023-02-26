@@ -15,6 +15,9 @@ const cli = meow(`
 
 const searchQuery = cli.input[0];
 
-if (cli.input.length === 1) {
-	openGoogle(searchQuery);
+if (cli.input.length !== 1) {
+	console.error('Specify a Google search to open');
+	process.exit(1);
 }
+
+openGoogle(searchQuery);
