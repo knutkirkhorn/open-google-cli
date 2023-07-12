@@ -17,9 +17,9 @@ $ open-google --help
     $ open-google <search query>
 
   Examples
-    $ free-space Kirkhorn
-    $ free-space "Knut Kirkhorn"
-    $ free-space "example search"
+    $ open-google Kirkhorn
+    $ open-google Knut Kirkhorn
+    $ open-google example search
 ```
 
 ## Related

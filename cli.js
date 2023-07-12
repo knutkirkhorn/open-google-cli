@@ -8,14 +8,14 @@ const cli = meow(`
 	  $ open-google <search query>
 
 	Examples
-	  $ free-space Kirkhorn
-	  $ free-space "Knut Kirkhorn"
-	  $ free-space "example search"
+	  $ open-google Kirkhorn
+	  $ open-google Knut Kirkhorn
+	  $ open-google example search
 `, {importMeta: import.meta});
 
-const searchQuery = cli.input[0];
+const searchQuery = cli.input.join(' ');
 
-if (cli.input.length !== 1) {
+if (cli.input.length === 0) {
 	console.error('Specify a Google search to open');
 	process.exit(1);
 }
