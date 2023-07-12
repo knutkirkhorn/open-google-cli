@@ -28,6 +28,7 @@
 		"strict": "off",
 		"consistent-return": "off",
 		"no-loop-func": "off",
-		"no-shadow": "off"
+		"no-shadow": "off",
+		"import/no-unresolved": "off"
 	}
 }
